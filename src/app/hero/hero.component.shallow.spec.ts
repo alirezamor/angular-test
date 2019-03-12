@@ -1,7 +1,9 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {HeroComponent} from './hero.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {Directive, Input, NO_ERRORS_SCHEMA} from '@angular/core';
 import {By} from '@angular/platform-browser';
+
+
 
 describe('HeroComponent (shallow test)', () => {
   let fixture: ComponentFixture<HeroComponent>;
